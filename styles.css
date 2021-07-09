@@ -1,0 +1,150 @@
+
+#title{
+    background-color: #b515d4;
+    color: #fff;
+   
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+h1 {
+    font-family : "Montserrat-bold";
+    font-size : 3.5rem;
+    line-height : 1.5;
+}
+h2{
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-family: "Montserrat-Extra-bold";
+}
+p{
+    color: #696565;
+}
+/* navbar */
+.navbar{
+    padding:0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: "Montserrat-bold";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+    
+
+.nav-link{
+    font-size: 1.4rem;
+    font-family: "Montserrat-Light";
+}
+/* download-button */
+.download-button{
+    margin: 8% 3% 5% 0;
+}
+
+/* title-image */
+.title-image
+{
+    width: 90%;
+    transform: rotate(25deg);
+    padding-left: 2cm;
+}
+/* features */
+#features{
+    padding: 7% 12%;
+    background-color: #fff;
+}
+.feature-box{
+    text-align: center;
+    padding: 3%;
+  
+}
+.icon{
+    color: #c621e7; 
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #b515d4;
+}
+/* testimonials */
+#testimonials{
+    
+    text-align: center;
+    background-color:#c621e7;
+    color: #fff;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+/* ads */
+#press{
+    background-color: #c621e7;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-image{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+/* pricing coloumn */
+#pricing
+{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-coloumn{
+    padding: 3% 2%;
+}
+/* call to action */
+#cta{
+    padding: 0 15%;
+    text-align: center;
+    background-color: #c621e7;
+
+    
+}
+.cta{
+    padding-top: 25px;
+    font-family : "Montserrat-black";
+    font-size : 3.5rem;
+    line-height : 1.5;
+    
+    color: #fff;
+}
+
+#carouselExampleSlidesOnly{
+    color: #fff;
+    
+}
+
+/* footer */
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+.social-icon{
+    margin: 20px 10px;
+}
+
+
+
+
+@media(max-width:993px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
